@@ -15,7 +15,7 @@ const HomePage = () => {
                 <h1 className="main-heading center">
                 It’s time to take control of your sexual & reproductive health.
                 </h1>
-                <h4 className="home-page-subheading center heading">
+                <h4 className="home-page-subheading center">
                 Ask questions, get answers from professionals. 
                 Simple and convenient, perfect for any womxn.</h4>
 
@@ -34,7 +34,6 @@ const HomePage = () => {
                 </Col>
             </Row>
         </Container>
-          
     </div>
   );
 };

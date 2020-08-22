@@ -9,6 +9,7 @@ import { Route } from "react-router-dom";
 import Footer from "../components/Footer";
 import { withRouter } from 'react-router-dom';
 import CommunityPage from "../containers/CommunityPage";
+import ChatBot from './Chat';
 
 
 class App extends React.Component {
@@ -22,6 +23,7 @@ class App extends React.Component {
             <Route path="/about" component={About} />
             <Route path="/community" component={CommunityPage} />
           </Switch>
+          <ChatBot></ChatBot>
           <Footer/>
         </main>
       </div>

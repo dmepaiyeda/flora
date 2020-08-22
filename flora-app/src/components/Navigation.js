@@ -1,8 +1,7 @@
 import React from 'react'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
-import NavDropdown from 'react-bootstrap/NavDropdown'
-import { Button, Container, Col, Row, Image } from "react-bootstrap";
+import { Button,} from "react-bootstrap";
 import cover from "../images/background.png";
 
 
