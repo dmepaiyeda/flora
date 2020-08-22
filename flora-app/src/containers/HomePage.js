@@ -11,22 +11,25 @@ const HomePage = () => {
     <div className="imageLanding" style={{backgroundImage: `url(${cover})` }}>
         <Container>
             <Row>
-                <Col>
-                <h2 className="home-page-heading heading center">
+                <Col xs={10} md={6} className="home-page-heading">
+                <h1 className="main-heading center">
                 It’s time to take control of your sexual & reproductive health.
-                </h2>
+                </h1>
                 <h4 className="home-page-subheading center heading">
                 Ask questions, get answers from professionals. 
                 Simple and convenient, perfect for any womxn.</h4>
 
-                <Button className="home-page-button searchbutton" onClick={(event) => (window.location.href = "/community")}>
-                    <strong>Sign up</strong>
+                <div className="home-page-buttons">
+                    <Button className="home-page-button" style={{background: "#F2E1FD", color: "black", border: "#F2E1FD", borderRadius: "30px", marginRight:"1em"}} onClick={(event) => (window.location.href = "/community")}>
+                        <strong>SIGN UP</strong>
                     </Button>
-                <Button className="home-page-button searchbutton" onClick={(event) => (window.location.href = "/community")}>
-                    <strong>Log in</strong>
-                </Button>
+                    <Button className="home-page-button" style={{background: "#F2E1FD", color: "black",  border: "#F2E1FD", borderRadius: "30px"}} onClick={(event) => (window.location.href = "/community")}>
+                        <strong>LOG IN</strong>
+                    </Button>
+                </div>
                 </Col>
-                <Col xs={10} md={5}>
+
+                <Col xs={10} md={5} className="home-page-img">
                     <Image src={image} fluid/>
                 </Col>
             </Row>

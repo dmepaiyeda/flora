@@ -14,4 +14,36 @@ code {
 
  */
 
- 
+/*home page*/
+.imageLanding {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.home-page-img{
+  margin-top: 8em;
+}
+
+.home-page-heading{
+  margin-top: 18em;
+  margin-right: 5em;
+}
+
+.main-heading{
+  color: white;
+}
+
+.home-page-button{
+  width: 10em;
+  height: 3em;
+}
+
+.home-page-buttons{
+  margin-top: 1.5em;
+}
+
+.nav-button{
+  width: 8em;
+}
