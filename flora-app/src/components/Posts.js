@@ -12,7 +12,11 @@ class Posts extends React.Component{
             <div>
                 <Container>
                     <Row className="center">
-                        <Col xs={3} md={1}><Image src={image} fluid/></Col>
+                        <Col xs={3} md={1}>
+                        <a href="/response">
+                            <Image src={image} fluid/>
+                        </a>
+                        </Col>
                         <Col xs={3} md={7}>
                             <p>My girlfriend noticed something off down there… <br/> Posted by <strong>sapphicsiren</strong> on 8/19/2020 • Dr. Jane Tripathi replied 2 days ago
                             </p>
