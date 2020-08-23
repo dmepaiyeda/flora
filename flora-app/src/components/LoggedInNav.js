@@ -12,7 +12,7 @@ class Navigation extends React.Component {
     return (
         <Navbar sticky="top" collapseOnSelect expand="lg" style={{backgroundImage: `url(${cover})` }}>
         <Navbar.Brand href="/">
-            <h1 className="main-heading" style={{color: "black"}}>FLORA</h1>
+            <h1 className="main-heading" style={{color: "black"}}>FlorA</h1>
             </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
