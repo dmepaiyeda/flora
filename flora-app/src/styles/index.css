@@ -12,6 +12,15 @@ code {
     monospace;
 } */
 
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Raleway&display=swap%27');
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+.main-heading{
+  font-family: 'Major Mono Display', monospace;
+  
+}
 
 /*home page*/
 .imageLanding {
@@ -59,4 +68,8 @@ code {
 
 .post-style{
   text-align: center;
+}
+
+.community-page-text{
+  color: white;
 }

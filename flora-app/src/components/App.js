@@ -25,7 +25,6 @@ class App extends React.Component {
         {this.props.location.pathname !== "/"
           && this.props.location.pathname !== "/about"
           && <LoggedInNav/>}
-          {/* <Navigation/> */}
           <Switch style={{ padding: "0em" }}>
             <Route path="/" component={HomePage} exact></Route>
             <Route path="/about" component={About}></Route>

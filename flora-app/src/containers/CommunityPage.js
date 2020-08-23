@@ -12,9 +12,9 @@ class Community extends React.Component {
     render(){
         return(
             <div className="imageLanding" style={{backgroundImage: `url(${cover})` }}>
-                <div className="community-page-heading">
-                <h1> Welcome to the Flora Community!</h1>
-                <h5>Ask anything in the forum, and a medical professional will reply within 24 hours.
+                <div className="community-page-heading" style={{paddingTop:"2em"}}>
+                <h1 className="community-page-text"> Welcome to the Flora Community!</h1>
+                <h5 style={{paddingBottom:"1em"}}>Ask anything in the forum, and a medical professional will reply within 24 hours.
                     Make sure to read up on our forum guidelines.
                     <h6>
                     Can’t wait? Too embarrassed to post? Use our chatbot for private, quick help!

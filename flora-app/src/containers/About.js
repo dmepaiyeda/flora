@@ -25,12 +25,9 @@ class About extends React.Component {
             From stigmas within POC families and communities, to the implicit biases against POC womxn 
             perpetuated by health professionals, we are extremely aware that these problems still exist in even the most 
             developed societies. 
-        </h5>
-
-        <h2>The Flora Team</h2>
-        <h5>
-        We created Flora to address these issues and create a safe space for all womxn to talk 
-        about problems they have related to their sexual and reproductive health. 
+        
+            We created Flora to address these issues and create a safe space for all womxn to talk 
+            about problems they have related to their sexual and reproductive health. 
 
         </h5>
 

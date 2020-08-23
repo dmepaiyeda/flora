@@ -12,22 +12,25 @@ class Navigation extends React.Component {
     return (
         <Navbar sticky="top" collapseOnSelect expand="lg" style={{backgroundImage: `url(${cover})` }}>
         <Navbar.Brand href="/">
-            <h2>FLORA</h2>
+            <h1 className="main-heading" style={{color: "black"}}>FLORA</h1>
             </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
-                <Nav.Link href="/about">About</Nav.Link>
-                <Nav.Link href="/community">Community</Nav.Link>
+            <Nav.Link href="/about" style={{color: "black"}}><strong>About</strong></Nav.Link>
+                <Nav.Link href="/community" style={{color: "black"}}><strong>Community</strong></Nav.Link>
             </Nav>
 
         </Navbar.Collapse>
+        <Navbar.Collapse className="justify-content-end">
             <Container>
                 <Row>
                     <Col xs={3} md={1}><Image src={person} fluid/></Col>
-                    <Col style={{marginTop:"1em"}}>ThisUserLovesFlora <FaCog/></Col>
+                    <Col style={{marginTop:"1em"}}><strong>ThisUserLovesFlora</strong> <FaCog/></Col>
                 </Row>
             </Container>
+
+        </Navbar.Collapse>
         </Navbar>
     );
   }

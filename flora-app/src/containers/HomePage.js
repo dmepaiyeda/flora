@@ -12,7 +12,7 @@ const HomePage = () => {
         <Container>
             <Row>
                 <Col xs={10} md={6} className="home-page-heading">
-                <h1 className="main-heading center">
+                <h1 className="center">
                 It’s time to take control of your sexual & reproductive health.
                 </h1>
                 <h4 className="home-page-subheading center">
