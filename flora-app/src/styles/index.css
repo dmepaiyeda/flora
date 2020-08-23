@@ -10,9 +10,8 @@
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 
- */
 
 /*home page*/
 .imageLanding {
@@ -46,4 +45,18 @@ code {
 
 .nav-button{
   width: 8em;
+}
+
+.about-content{
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.community-page-heading{
+  text-align: center;
+  
+}
+
+.post-style{
+  text-align: center;
 }

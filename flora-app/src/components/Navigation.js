@@ -1,14 +1,14 @@
 import React from 'react'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
-import { Button,} from "react-bootstrap";
+import { Button} from "react-bootstrap";
 import cover from "../images/background.png";
 
 
 class Navigation extends React.Component {
   render() {
     return (
-        <Navbar fixed="top" collapseOnSelect expand="lg" style={{backgroundImage: `url(${cover})` }}>
+        <Navbar sticky="top" collapseOnSelect expand="lg" style={{backgroundImage: `url(${cover})` }}>
         <Navbar.Brand href="/">
             <h2>FLORA</h2>
             </Navbar.Brand>

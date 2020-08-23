@@ -6,7 +6,6 @@ import HomePage from "../containers/HomePage";
 import About from "../containers/About";
 import Switch from "react-bootstrap/esm/Switch";
 import { Route } from "react-router-dom";
-import Footer from "../components/Footer";
 import { withRouter } from 'react-router-dom';
 import CommunityPage from "../containers/CommunityPage";
 import ChatBot from './Chat';
@@ -20,11 +19,10 @@ class App extends React.Component {
           <Navigation/>
           <Switch style={{ padding: "0em" }}>
             <Route path="/" component={HomePage} exact></Route>
-            <Route path="/about" component={About} />
-            <Route path="/community" component={CommunityPage} />
+            <Route path="/about" component={About}></Route>
+            <Route path="/community" component={CommunityPage}></Route>
           </Switch>
           <ChatBot></ChatBot>
-          <Footer/>
         </main>
       </div>
 
